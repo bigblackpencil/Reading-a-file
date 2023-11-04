@@ -9,7 +9,7 @@ int main()
     std::cin >> size;
     int* Array = new int[size];
 
-    std::ifstream readFile("E:\\C++\\Zhegalkin-polynomial\\BoolFunctions.txt");
+    std::ifstream readFile("file.txt");
     if (!readFile.is_open()) 
     {
         std::cerr << "Error." << std::endl;
